@@ -20,6 +20,8 @@ xmlns:tns="http://demos.javacha.com/students" elementFormDefault="qualified">
     </xs:complexType>
   </xs:element>
   
+  
+  
   <xs:complexType name="StudentDetails">
     <xs:sequence>
       <xs:element name="id" type="xs:int"/>
@@ -27,6 +29,5 @@ xmlns:tns="http://demos.javacha.com/students" elementFormDefault="qualified">
       <xs:element name="passportNumber" type="xs:string"/>
     </xs:sequence>
   </xs:complexType>
-  
   
 </xs:schema>
